@@ -1,0 +1,30 @@
+.home-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-items: center;
+    text-align: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.item-container {
+    width: 100%;
+    padding-top: 10px;
+    background-color: antiquewhite;
+}
+
+.item-container:hover {
+    cursor: pointer;
+}
+
+.item-image {
+    width: 200px;
+    height: 250px;
+}
+
+.item-title-price > p {
+    width: 200px;
+    font-size: 1rem;
+    margin: 10px auto;
+    color: black;
+}

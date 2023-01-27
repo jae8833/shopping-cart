@@ -1,0 +1,50 @@
+.item-page {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+}
+
+.specific-item-image {
+    margin: auto;
+    width: 400px; 
+    height: 500px;
+}
+
+.item-left {
+    display: flex;
+}
+
+.item-right {
+    display: flex;
+}
+
+.item-text {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    padding: 20px;
+}
+
+#item-title, #item-price {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.item-right p {
+    font-size: 1.2rem;
+}
+
+.button-container {
+    text-align: center;
+}
+
+#add-item {
+    padding: 6px;
+    width: 100px;
+}
+
+#add-item:hover {
+    cursor: pointer;
+}
