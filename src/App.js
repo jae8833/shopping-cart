@@ -66,7 +66,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/app">
       <div className={`container ${page}`} >
           <Nav cartItems={cartItems} itemCount={itemCount} chosenItems={chosenItems} total={total} incrementItem={incrementItem} decrementItem={decrementItem}/>
           <Routes>
