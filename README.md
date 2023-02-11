@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Shopping Cart
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A frontend react application that represents a shopping website, where the items on the shop are pulled using third party APIs. The shopping cart is fully functional, updating when items are added/removed and and dynamically displaying the toal cost of the cart.
 
 ## Available Scripts
 
