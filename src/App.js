@@ -66,7 +66,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter basename="basename={process.env.PUBLIC_URL}">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className={`container ${page}`} >
           <Nav cartItems={cartItems} itemCount={itemCount} chosenItems={chosenItems} total={total} incrementItem={incrementItem} decrementItem={decrementItem}/>
           <Routes>
